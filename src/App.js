@@ -1,12 +1,12 @@
 import './App.css';
-// import profilePicture from './assets/profile__img.png';
-// import share from './assets/_Avatar share button.png';
-// import option from './assets/mobile_Avatar share button.png';
-// import github from './assets/github-icon.png';
-// import I4G from './assets/I4G.png';
-// import zuri from './assets/logo.36d2d48a.png';
-// import slack from './assets/slack.png';
-// import hover from './assets/hover.png';
+import profilePicture from './assets/profile__img.png';
+import share from './assets/_Avatar share button.png';
+import option from './assets/mobile_Avatar share button.png';
+import github from './assets/github-icon.png';
+import I4G from './assets/I4G.png';
+import zuri from './assets/logo.36d2d48a.png';
+import slack from './assets/slack.png';
+import hover from './assets/hover.png';
 
 function App() {
   const zuriDesign = 'https://books.zuri.team/design-rules';
