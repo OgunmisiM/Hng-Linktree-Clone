@@ -1,19 +1,19 @@
 import './App.css';
-import profilePicture from './assets/profile__img.png';
-import share from './assets/_Avatar share button.png';
-import option from './assets/mobile_Avatar share button.png';
-import github from './assets/github-icon.png';
-import I4G from './assets/I4G.png';
-import zuri from './assets/logo.36d2d48a.png';
-import slack from './assets/slack.png';
-import hover from './assets/hover.png';
+// import profilePicture from './assets/profile__img.png';
+// import share from './assets/_Avatar share button.png';
+// import option from './assets/mobile_Avatar share button.png';
+// import github from './assets/github-icon.png';
+// import I4G from './assets/I4G.png';
+// import zuri from './assets/logo.36d2d48a.png';
+// import slack from './assets/slack.png';
+// import hover from './assets/hover.png';
 
 function App() {
-  const twitter = 'https://twitter.com/ibn_momoh';
-  const zuriBtn = 'https://training.zuri.team/';
-  const zuriBooks = 'http://books.zuri.team/';
-  const pitch = 'https://background.zuri.team/';
   const zuriDesign = 'https://books.zuri.team/design-rules';
+  const zuriBooks = 'http://books.zuri.team/';
+  const zuri_Btn = 'https://training.zuri.team/';
+  const pitch = 'https://background.zuri.team/';
+  const twitter = 'https://twitter.com/ogunmisim';
 
   return (
     <>
@@ -22,10 +22,10 @@ function App() {
           <img src={profilePicture} alt='profile' id='profile_img' />
           <img src={hover} alt='profile' id='profile_img' className='hover' />
           <a href={twitter} id='twitter'>
-            Momoh Abdulsamad
+            Ogunmisi Oluwafemi
           </a>
           <h1 className='hidden' id='slack'>
-            Momoh Abdulsamad
+            Ogunmisi Oluwafemi
           </h1>
         </div>
         <div className='share'>
@@ -38,7 +38,7 @@ function App() {
           <a href={twitter} id='twitter'>
             Twitter Link
           </a>
-          <a href={zuriBtn} id='btn__zuri'>
+          <a href={zuri_Btn} id='btn__zuri'>
             Zuri Team
           </a>
           <a href={zuriBooks} id='books'>
