@@ -26,10 +26,10 @@ footer {
 }
 
 header {
-  margin: 2rem 0;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
+  margin-top: 1rem;
 }
 
 header a {
@@ -38,7 +38,6 @@ header a {
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
-  margin-top: 1rem;
 }
 .profile {
   margin-left: 6rem;
@@ -72,7 +71,6 @@ main .buttons a {
 }
 
 main .buttons a:hover {
-  /* border: 1px solid #101828; */
   background-color: #d0d5dd;
 }
 
@@ -99,7 +97,7 @@ small {
 
 footer {
   border-top: 1px solid #eaecf0;
-  margin: 3rem 0 0;
+  margin: 3rem auto;
   padding: 1rem 0;
   display: flex;
   align-items: center;

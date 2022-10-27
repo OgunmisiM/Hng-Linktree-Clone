@@ -1,10 +1,10 @@
 import './App.css';
 import profilePicture from './assets/profile__img.png';
-import share from './assets/_Avatar share button.png';
+import share from './assets/share_button.png';
 import option from './assets/mobile_Avatar share button.png';
 import github from './assets/github-icon.png';
 import I4G from './assets/I4G.png';
-import zuri from './assets/logo.36d2d48a.png';
+import zuri from './assets/zuri_logo.png';
 import slack from './assets/slack.png';
 import hover from './assets/hover.png';
 
@@ -33,6 +33,7 @@ function App() {
           <img src={option} alt='option' className='option_icon' />
         </div>
       </header>
+
       <main className='container'>
         <div className='buttons'>
           <a href={twitter} id='twitter'>
