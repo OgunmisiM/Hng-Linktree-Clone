@@ -10,7 +10,7 @@ import hover from './assets/hover.png';
 
 function App() {
   const zuriDesign = 'https://books.zuri.team/design-rules';
-  const zuriBooks = 'http://books.zuri.team/';
+  const zuriBooks = 'http://books.zuri.team/python-for-beginners?ref_id=ogunmisim';
   const zuri_Btn = 'https://training.zuri.team/';
   const pitch = 'https://background.zuri.team/';
   const twitter = 'https://twitter.com/ogunmisim';
@@ -19,8 +19,8 @@ function App() {
     <>
       <header>
         <div className='profile'>
-          <img src={profilePicture} alt='profile' id='profile_img' />
-          <img src={hover} alt='profile' id='profile_img' className='hover' />
+          <img src={profilePicture} alt='profile' id='profile__img' />
+          <img src={hover} alt='profile' id='profile__img' className='hover' />
           <a href={twitter} id='twitter'>
             Ogunmisi Oluwafemi
           </a>
