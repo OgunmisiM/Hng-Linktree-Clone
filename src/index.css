@@ -80,7 +80,7 @@ main .buttons a:hover {
 }
 
 .share_icon {
-  margin-left: 3rem;
+  margin: 3rem;
 }
 
 .icons {
@@ -113,9 +113,15 @@ footer {
     width: 95%;
   }
 
-  footer,
   .share_icon {
     display: none;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
   }
 
   .option_icon {
