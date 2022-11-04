@@ -116,12 +116,16 @@ footer {
   .share_icon {
     display: none;
   }
+
   footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     width: 90%;
+  }
+  small {
+    margin: 15px 0;
   }
 
   .option_icon {
