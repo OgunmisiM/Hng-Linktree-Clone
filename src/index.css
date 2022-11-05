@@ -33,9 +33,13 @@ header {
   margin-top: 1rem;
 }
 .contact {
-  margin: 15px auto;
-  font-size: medium;
-  font-weight: bold;
+  margin: auto;
+  padding: 64px 0 0 0px;
+  font-size: normal;
+}
+
+.contact p {
+  margin-bottom: 20px;
 }
 header a {
   display: block;

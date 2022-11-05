@@ -29,12 +29,12 @@ const Contact = () => {
 
         <Form.Group className="mb-3" controlId="formGroupEmail">
           <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" id='email' />
+          <Form.Control type="email" placeholder="yourname@email.com" id='email' />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label>Message</Form.Label>
-          <Form.Control as="textarea" rows={5} id='message' />
+          <Form.Control as="textarea" rows={5} id='message' placeholder="Send me a message and I'll reply you as soon as possible..." />
         </Form.Group>
 
         <Form.Group className="mb-3" id="formGridCheckbox">
@@ -43,7 +43,7 @@ const Contact = () => {
 
         <div className="d-grid gap-2">
           <Button variant="primary" size="lg">
-            Block level button
+            Send message
           </Button>
         </div>
       </Form>
