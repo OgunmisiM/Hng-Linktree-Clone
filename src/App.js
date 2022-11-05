@@ -1,17 +1,15 @@
-import './App.css';
-import Contact from './components/contact';
-import { Link } from "react-router-dom";
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Links from './components/Links';
+import { Route, Routes } from "react-router-dom";
+import All from "./components/All";
+import Contact from './pages/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-
   return (
     <>
-      <Header />
-      <Links />
-      <Footer />
+      <Routes>
+        <Route path='/' element={<All />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
     </>
   );
 }

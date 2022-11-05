@@ -33,7 +33,7 @@ const Links = () => {
           Design Books
         </a>
 
-        <Link to={"/contact"} id='contact'> Contact Me </Link>
+        <Link to={"/Contact"} id='contact'> Contact Me </Link>
 
       </div>
       <div className='icons'>
